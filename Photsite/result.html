@@ -1,0 +1,112 @@
+<!DOCTYPE HTMAL>
+<html lang="kz">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>Phosite result</title>
+        <link rel="stylesheet" href="Secret.css">
+  
+  <!-- 2. ПОДКЛЮЧАЕМ ВАШ SECRET.CSS (строго ПОСЛЕ Bootstrap) -->
+  <link rel="stylesheet" href="Secret.css">
+
+    </head>
+    <body>
+        <header class="fixed-top-nav">
+            <div class="logo-area">
+                <h1>Phosite</h1>
+             </div>
+  
+                <!-- Обёртка для ссылок обязательно должна иметь класс nav-links -->
+            <nav class="nav-links">
+                <a href="#" class="nav-link">Contack</a>
+                <h1></h1>
+                <a href="#" class="nav-link">Prosile</a>
+            </nav>
+        </header>
+                    <!-- Кнопка-меню для мобильных устройств -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon">
+                <h1>
+                    
+                </h1>
+            </span>
+            </button>
+            <section id="result-section" class="result-section">
+  <div class="result-card">
+    <div class="result-average">
+      <span class="result-label">СРЕДНЯЯ ОЦЕНКА</span>
+      <div class="average-circle" id="avg-score">—</div>
+      <span class="average-sub">из 100</span>
+    </div>
+
+    <div class="result-criteria" id="criteria-list">
+      <div class="criterion" data-key="focus">
+        <span class="crit-name">Качество и фокус</span>
+        <div class="crit-bar"><div class="crit-fill" style="width:0%"></div></div>
+        <span class="crit-value">—</span>
+      </div>
+      <div class="criterion" data-key="composition">
+        <span class="crit-name">Перспектива и композиция</span>
+        <div class="crit-bar"><div class="crit-fill" style="width:0%"></div></div>
+        <span class="crit-value">—</span>
+      </div>
+      <div class="criterion" data-key="geometry">
+        <span class="crit-name">Геометрия кадра</span>
+        <div class="crit-bar"><div class="crit-fill" style="width:0%"></div></div>
+        <span class="crit-value">—</span>
+      </div>
+      <div class="criterion" data-key="light">
+        <span class="crit-name">Свет и экспозиция</span>
+        <div class="crit-bar"><div class="crit-fill" style="width:0%"></div></div>
+        <span class="crit-value">—</span>
+      </div>
+    </div>
+
+    <p class="result-comment" id="result-comment"></p>
+
+    <div class="result-status" id="result-status">Загрузка оценки…</div>
+  </div>
+</section>
+    <footer class="site-footer">
+    <div class="footer-container">
+        
+        <!-- ЛЕВАЯ ЧАСТЬ: КОНТАКТЫ -->
+        <div class="footer-column">
+            <h3>Get In Touch</h3>
+            <ul class="contact-list">
+                <li>
+                    <span class="icon">📍</span> 
+                    Некрасова 6, Минск, Беларусь
+                </li>
+                <li>
+                    <span class="icon">📞</span> 
+                    +375 29 228 6877
+                </li>
+                <li>
+                    <span class="icon">✉️</span> 
+                    animelaptop79@gmail.com
+                </li>
+            </ul>
+            
+            <!-- Соцсети -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61579851143934&sk=about&locale=ru_RU" class="social-btn" target="_blank" aria-label="Facebook">
+                    <svg xmlns="http://w3.org" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                </a>
+                 <a href="https://www.instagram.com/anime_laptop/" class="social-btn" target="_blank" aria-label="Instagram">
+                    <svg xmlns="http://w3.org" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                </a>
+                <a href="https://t.me" class="social-btn" target="_blank" aria-label="Telegram">
+                    <svg xmlns="http://w3.org" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </a>
+            </div>
+        </div>
+
+        
+
+    </div>
+</footer>
+    <script src="scriptsite.js"></script>
+    </body>
+    </html>
